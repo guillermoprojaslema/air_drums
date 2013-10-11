@@ -1,0 +1,869 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Requerimientos.
+\end_layout
+
+\begin_layout Abstract
+Dentro de este resumen, se abarcan aspectos importantes del desarollo de
+ software.
+ Un caso particular para la creación de un sitio web en el cual se establecen
+ las condiciones, los involucrados, alcances y por sobre todo, requerimientos
+ del cliente.
+ Se hace énfasis para el desarrollo, la utilización de metodologías ágiles
+ basados en el manifiesto ágil.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Stakeholders.
+\end_layout
+
+\begin_layout Standard
+Los stakeholders son aquellas personas que se ven beneficiadas con la creación
+ de www.makpropieades.cl para este preciso caso, son todos los futuros usuarios
+ y trabajadores de MAK propiedades.
+\end_layout
+
+\begin_layout Section
+Las 6 w's
+\end_layout
+
+\begin_layout Standard
+Provienen de su sigla en inglés y responde 6 preguntas básicas pero impotantes:
+ qué, quién, cuándo, cómo, por qué y dónde.
+ Sirven para comprender y servir de guía al proyecto.
+\end_layout
+
+\begin_layout Itemize
+Qué: Realizar un portal web, capaz de ofrecer al mercado propiedades disponibles.
+ Además podrá administrar las propiedades ofrecidas por parte de clientes.
+\end_layout
+
+\begin_layout Itemize
+Quién: 
+\end_layout
+
+\begin_layout Itemize
+Cuándo
+\end_layout
+
+\begin_layout Itemize
+Cómo
+\end_layout
+
+\begin_layout Itemize
+Por qué: Creará más oportunidades de negocios, al tener una plataforma de
+ contacto más rápida y precisa.
+\end_layout
+
+\begin_layout Itemize
+Dónde: Lo ideal será www.makpropiedades.cl
+\end_layout
+
+\begin_layout Section
+Roles específicos.
+ 
+\end_layout
+
+\begin_layout Standard
+Se conocen como los cargos de actores involucrados en el sistema; pueden
+ ser personas naturales o no.
+ Se les son asignadas responsabilidades, tareas, funciones, etc.
+ 
+\end_layout
+
+\begin_layout Standard
+En este sistema se han descubierto 4 Roles: 
+\end_layout
+
+\begin_layout Description
+Usuario: Es el actor y ente humano que interactúa de manera más directa
+ con el sistema web y con los clientes.
+ Es quien realiza gran parte del negocio.
+ Pertenece al personal y es él quien en gran medida realiza el proceso de
+ negocio.
+ 
+\end_layout
+
+\begin_layout Description
+Administrador: Es el actor y ente humano encargado de permitir las instanciación
+, eliminación, actualización y acceso de los usuarios al sistema web.
+ A su vez, queda explícitamente dicho que un Administrador posee la mismas
+ facultades que un Usuario, pero no viceversa.
+ 
+\end_layout
+
+\begin_layout Description
+Oferente: Es el ente humano, más importante por parte del negocio.
+ Es quien oferta las propiedades que él/ella necesita basado en sus necesidades.
+\end_layout
+
+\begin_layout Description
+Demandante: Es el ente humano, más importante por parte del negocio.
+ Es quien demanda las propiedades que él/ella necesita basado en sus necesidades.
+\end_layout
+
+\begin_layout Description
+Anónimo: Es cualquier ente humano o no, que visita la página web.
+\end_layout
+
+\begin_layout Section
+Primera Iteración.
+\end_layout
+
+\begin_layout Subsection
+Requerimientos funcionales.
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Note Note
+status open
+
+\begin_layout Subsubsection
+Historia: Nombre de la historia
+\end_layout
+
+\begin_layout Itemize
+Rol: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Actor que ejecutará alguna tarea
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Prioridad: 
+\end_layout
+
+\begin_layout Itemize
+Descripción: Como 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Rol
+\end_layout
+
+\end_inset
+
+, yo quiero 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Característica
+\end_layout
+
+\end_inset
+
+, de manera que 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Benefecios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Criterio de aceptación : 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Presentados como escenarios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+1: Título
+\end_layout
+
+\begin_layout Plain Layout
+Dado
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Resultado
+\end_layout
+
+\end_inset
+
+ y 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Otro resultado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+2: Título
+\end_layout
+
+\begin_layout Plain Layout
+Dado
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Resultado
+\end_layout
+
+\end_inset
+
+ y 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Otro resultado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+3: Título
+\end_layout
+
+\begin_layout Plain Layout
+Dado
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Resultado
+\end_layout
+
+\end_inset
+
+ y 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Otro resultado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Requerimientos
+\begin_inset space ~
+\end_inset
+
+funcionales: Condición o capacidad de un sistema requerida por el usuario
+ para resolver un problema o alcanzar un objetivo.
+\end_layout
+
+\begin_layout Subsubsection
+Historia: El cliente ofrece
+\end_layout
+
+\begin_layout Itemize
+Rol: Cliente 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Actor que ejecutará alguna tarea
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta.
+\end_layout
+
+\begin_layout Itemize
+Descripción: Como Admnistradora
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Rol
+\end_layout
+
+\end_inset
+
+, yo quiero exista la página web www.makpropiedades.cl
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Característica
+\end_layout
+
+\end_inset
+
+, de manera que los clientes entren en contacto con Mak Propiedades.
+ Esto incluye contacto con el personal de la empresa en cuestión.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Benefecios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Criterios de aceptación : 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Presentados como escenarios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+1: Entra a la web, para ofrecer una propiedad.
+\end_layout
+
+\begin_layout Standard
+Dado que la página web está online 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y disponible su sección de contacto 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando el cliente toma conciencia de la necesidad de ofertar su propiedad
+ a través de Mak propiedades
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces, el cliente se contacta por medio de la sección de contacto de
+ la página web (traducido en un correo electrónico), o realiza un llamado
+ telefónico directo o agenda una reunión prescencial o virtual.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Resultado
+\end_layout
+
+\end_inset
+
+Son los usuarios y/o el administrador los únicos encargados de ingresar
+ los datos de la propiedad y del cliente a la página web.
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Otros posibles escenarios, que no han sido especificados en este documento,
+ en el mismo contexto quedan descartados.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Historia: El cliente demanda.
+\end_layout
+
+\begin_layout Itemize
+Rol: Cliente 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Actor que ejecutará alguna tarea
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta
+\end_layout
+
+\begin_layout Itemize
+Descripción: Como Admnistradora
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Rol
+\end_layout
+
+\end_inset
+
+, yo quiero que exista la página web www.makpropiedades.cl
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Característica
+\end_layout
+
+\end_inset
+
+, de manera que los clientes que demanden propiedades, puedan encontrarla
+ con facilidad en alguna sección específica de la web.
+ De esta manera la atención se hace más explícita 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Benefecios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Criterio de aceptación : 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Presentados como escenarios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+1: Entra a la web, para demandar una propiedad por venta
+\end_layout
+
+\begin_layout Standard
+Dado que la página web está online 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y disponible su sección de búsqueda 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando el cliente toma conciencia de la necesidad de demandar por venta
+ una propiedad a través de Mak propiedades
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces, el cliente buscará a través del sitio web.
+ Encuentra lo que busca y se contacta por medio de la sección de contacto
+ de la página web (traducido en un correo electrónico), o realiza un llamado
+ telefónico directo o agenda una reunión prescencial o virtual.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Resultado
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+2: Entra a la web, para demandar una propiedad por arriendo.
+\end_layout
+
+\begin_layout Standard
+Dado que la página web está online 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y disponible su sección de búsqueda 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando el cliente toma conciencia de la necesidad de demandar por arriendo
+ una propiedad a través de Mak propiedades
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces, el cliente buscar a través del sitio web.
+ Encuentra lo que busca y se contacta por medio de la sección de contacto
+ de la página web (traducido en un correo electrónico), o realiza un llamado
+ telefónico directo o agenda una reunión prescencial o virtual.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Resultado
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+Escenario
+\begin_inset space ~
+\end_inset
+
+3: Entra a la web, para demandar una propiedad.
+\end_layout
+
+\begin_layout Standard
+Dado que la página web está online 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+contexto
+\end_layout
+
+\end_inset
+
+ y disponible su sección de búsqueda 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+algo más de contexto
+\end_layout
+
+\end_inset
+
+.
+ Cuando el cliente toma conciencia de la necesidad de demandar una propiedad
+ a través de Mak propiedades
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Evento
+\end_layout
+
+\end_inset
+
+ entonces, el cliente buscar a través del sitio web.
+ El sitio web muestra que no se encuentró lo que buscaba, pero despliega
+ un botón de tal forma que avise al cliente que puede encargar una propiedad
+ en la sección de contacto.
+ Otros posibles escenarios, que no han sido especificados en este documento,
+ en el mismo contexto quedan descartados.
+\end_layout
+
+\begin_layout Subsection
+Requerimientos no funcionales.
+ 
+\end_layout
+
+\begin_layout Description
+Requerimientos
+\begin_inset space ~
+\end_inset
+
+no
+\begin_inset space ~
+\end_inset
+
+funcionales: Condición o capacidad que debe poseer un sistema par satisfacer
+ un contrato, un estándar, una especificación u otro documento formalmente
+ impuesto.
+ 
+\end_layout
+
+\begin_layout Description
+######## por editar #######
+\end_layout
+
+\end_body
+\end_document
